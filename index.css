@@ -1,6 +1,15 @@
-body,
+body {
+  margin: 0;
+  background-color: #0460bc;
+}
+
 h1 {
   margin: 0;
+}
+
+section {
+  width: 380px;
+  background-color: white;
 }
 
 .calender {
