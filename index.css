@@ -10,6 +10,7 @@ h1 {
 section {
   width: 380px;
   background-color: white;
+  margin: 15rem auto;
 }
 
 .calender {
