@@ -17,3 +17,7 @@ svg {
 header {
   display: flex;
 }
+
+.span-1 {
+  background-color: #999999;
+}
