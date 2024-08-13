@@ -1,6 +1,7 @@
 body {
   margin: 0;
   background-color: #0460bc;
+  height: 100vh;
 }
 
 h1 {
@@ -12,12 +13,16 @@ section {
   background-color: white;
   margin: 15rem auto;
   padding: 2rem 1.5rem;
+  border-radius: 11px;
+  box-sizing: border-box;
 }
 
 .calender {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  justify-content: center;
+  gap: 1.8rem;
 }
 
 strong,
@@ -33,8 +38,11 @@ svg {
 
 header {
   display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
+  margin-top: 0;
 }
 
 .span-1 {
-  background-color: #999999;
+  color: #999999;
 }
